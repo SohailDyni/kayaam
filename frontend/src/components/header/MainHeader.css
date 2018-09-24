@@ -1,0 +1,64 @@
+.top-fixed-header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    /* overflow: hidden;
+    padding-left: 40px; */
+    float: left;
+    /* height: 64px;
+    line-height: 64px;
+    text-decoration: none;
+    white-space: nowrap; */
+}
+
+.logo img {
+    height: 32px;
+    margin-right: 16px;
+}
+
+.ant-menu-item.ant-menu-item-selected,
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu.ant-menu-dark .ant-menu-item-selected, 
+{
+    background-color: transparent !important;
+}
+
+.top-header-menu {
+    line-height: 64px;
+    background-color: transparent;
+}
+
+/* #components-form-demo-normal-login .login-form {
+    max-width: 300px;
+} */
+
+.login-form .login-form-forgot {
+    float: right;
+}
+
+.login-form .login-form-button {
+    width: 100%;
+}
+
+.social-login.fb{
+    margin-bottom: 0.5rem;
+    background-color: rgb(69, 104, 178);
+    border-color: rgb(69, 104, 178); 
+}
+.social-login.gplus{
+    margin-bottom: 1rem;
+}
+.login-form .ant-form-item{
+    margin-bottom: 1rem;
+}
+
+.login-form .ant-form-item-control{
+    line-height: 1;
+}

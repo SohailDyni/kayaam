@@ -1,0 +1,131 @@
+/* @import '~antd/dist/antd.css'; */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255,255,255,.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+
+.bg-img{
+  background-size: cover !important;
+	background-position: center center !important;
+}
+.transparent-btn{
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.ant-layout{
+  background-color: transparent
+}
+
+.narrow-section {
+  padding: 0 5rem
+}
+.service-gradient {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: -webkit-gradient(linear, left bottom, left top, from(#e1006a), to(#087377));
+  background: linear-gradient(0deg, #e1006a 0%, #087377 100%);
+  opacity: 0.4;
+  /* -webkit-transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  z-index: 2; */
+}
+
+.main-content{
+  padding: 4em 0 3em;
+}
+.reviews-list.ant-list-vertical .ant-list-item-meta-avatar{
+  display: block;
+}
+
+
+.listing-card-right{
+  right: 0;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+
+}
+
+.listing-card-left{
+  left: 0;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: 50px;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+  background: transparent;
+  color: transparent;
+  top: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+.listing-card-right button{
+  background: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.25) 100%) !important;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  font-size: 1.8rem;
+  color: #ffffff;
+  z-index: 1;
+
+}
+
+.listing-card-left button{
+  background: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.25) 100%) !important;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  font-size: 1.8rem;
+  color: #ffffff;
+  z-index: 1;
+
+}
+
+
+.jss46 {
+  color: #FFFFFF;
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46);
+}
+
+.bg-primary {
+  background-color: #00acc1 !important;
+}
+
+.bg-secondary{
+  background-color: #e91e63 !important;
+}

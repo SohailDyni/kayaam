@@ -1,0 +1,77 @@
+.top-fixed-header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+    color: #FFFFFF;
+    height: auto;
+    background-color: #fff;
+    /* box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 12px -5px rgba(0, 188, 212, 0.46); */
+    padding: 0;
+}
+.top-fixed-header .main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 50px;
+}
+.top-fixed-header .filters{
+    padding: 0 50px;
+}
+.filters-btn{
+    margin: 0 8px;
+}
+.logo {
+    /* overflow: hidden;
+    padding-left: 40px; */
+    float: left;
+    /* height: 64px;
+    line-height: 64px;
+    text-decoration: none;
+    white-space: nowrap; */
+}
+
+.logo img {
+    height: 32px;
+    margin-right: 16px;
+}
+
+.ant-menu-item.ant-menu-item-selected,
+.ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu.ant-menu-dark .ant-menu-item-selected, 
+{
+    background-color: transparent !important;
+}
+
+.top-header-menu {
+    line-height: 64px;
+    /* background-color: transparent; */
+}
+
+/* #components-form-demo-normal-login .login-form {
+    max-width: 300px;
+} */
+
+.login-form .login-form-forgot {
+    float: right;
+}
+
+.login-form .login-form-button {
+    width: 100%;
+}
+
+.social-login.fb{
+    margin-bottom: 0.5rem;
+    background-color: rgb(69, 104, 178);
+    border-color: rgb(69, 104, 178); 
+}
+.social-login.gplus{
+    margin-bottom: 1rem;
+}
+.login-form .ant-form-item{
+    margin-bottom: 1rem;
+}
+
+.login-form .ant-form-item-control{
+    line-height: 1;
+}

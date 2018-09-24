@@ -1,0 +1,70 @@
+.room-card {
+    background-color: transparent;
+}
+
+.has-fixed-header {
+    padding-top: 9.5rem;
+}
+
+.room-card .ant-card-body {
+    padding: 12px 0px;
+}
+
+.room-card h2{
+    margin-bottom: 0;
+}
+
+.room-card .ant-card-actions>li:nth-child(2) span {
+    width: 100%;
+}
+
+.room-card .ant-card-actions>li:nth-child(2) i {
+    width: 50%;
+}
+
+.room-card .ant-card-body p {
+    margin-bottom: 0;
+}
+
+.listing-rating{
+    font-size: 0.8rem
+}
+
+.listing-rating-con .ant-rate-star{
+    margin-right: 1px;
+}
+
+.room-card .price-tag{
+    position: absolute;
+    top: 0;
+    color: #fff;
+    background: rebeccapurple;
+    padding: 5px 10px;
+    font-size: 1rem;
+    z-index: 2;
+}
+
+.room-card .price-tag small{
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.room-card .carousel-con{
+    position: relative;
+}
+
+.room-card .room-host{
+    position: absolute;
+    right: 0;
+    bottom: -24px;
+    margin-bottom: 0;
+    z-index: 2;
+}
+
+.room-card .listing-card-left button, .room-card .listing-card-right button{
+    opacity: 0;
+}
+
+.room-card .carousel-con:hover .listing-card-left button, .room-card .carousel-con:hover .listing-card-right button{
+    opacity: 1;
+}
