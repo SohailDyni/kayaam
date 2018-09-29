@@ -38,8 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rooms',
-    'profile'
+    # 'profile'
+    'graphene_django',
 ]
+
+GRAPHENE = {
+    'SCHEMA': 'kayam.schema.schema'
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -83,14 +88,25 @@ WSGI_APPLICATION = 'kayam.wsgi.application'
 #     }
 # }
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'kayaam',
+#         'USER': 'apple',
+#         'PASSWORD': '',
+#         'HOST': 'localhost',
+#         'PORT': '',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'kayaam',
-        'USER': 'apple',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '',
+        'NAME': 'd1tsmb0cel2jlf',
+        'USER': 'gyamoyarnuonlk',
+        'PASSWORD': 'e0326bdf19305ff597671bbdffc320e602a35b2a4ecaadc73f8cd7ac363dd19a',
+        'HOST': 'ec2-54-235-242-63.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
