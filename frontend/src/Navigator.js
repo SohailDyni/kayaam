@@ -11,7 +11,7 @@ import {Route, Switch, BrowserRouter, Redirect} from 'react-router-dom';
 // import Home from 'screens/Home';
 // import {RoomDetail, Home, RoomsListing} from 'screens';
 // import RoomsListing from "screens/rooms/listings/RoomsListing"
-// import RoomDetail from "screens/rooms/detail/RoomDetail"
+import RoomDetail from "screens/rooms/detail/RoomDetail"
 
 // import BookingPage from "./screens/booking/BookingPage"
 
@@ -47,7 +47,7 @@ export default class Navigator extends Component {
         return (
             <BrowserRouter>
                 <Switch>
-                    <Route exact path="/" component={AddRoomPage} />
+                    <Route exact path="/" component={RoomDetail} />
                     {/* <PrivateRoute exact path="/" component={PonyNote} />
                     <Route exact path="/register" component={Register} />
                     <Route exact path="/login" component={Login} />
