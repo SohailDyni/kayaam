@@ -15,7 +15,7 @@ jmespath==0.9.3
 Pillow==5.2.0
 promise==2.1
 psycopg2==2.7.5
-PyJWT==1.6.4
+PyJWT==2.4.0
 python-dateutil==2.7.3
 pytz==2018.5
 Rx==1.6.1
